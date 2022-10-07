@@ -1,0 +1,93 @@
+table, th, td {
+    /*border: 1px solid purple;*/
+}
+
+th, td {
+    padding: 10px;
+}
+
+.report {
+    margin: 0 auto;
+    width: 95%;
+    max-width: 80rem;
+    max-height: 40rem;
+    border-radius: 6px;
+    /*background-color: #38015c;*/
+    background-color: #593e3e;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    /*text-align: center;*/
+    color: white;
+}
+
+.report h1 {
+    text-align: center;
+    color: white;
+}
+
+.controls {
+    text-align: center;
+    size: 5rem;
+}
+.controls select{
+    width: 150px;
+    height: 30px;
+    background-color: #692525;
+    color: white;
+    border-color: #462419;
+}
+
+.controls button {
+    background-color: #240370;
+    font-size: 16px;
+    color: white;
+    border: 1px solid #240370;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.monthlyTotal {
+    width: 80%;
+    max-width: 40rem;
+    padding: 1rem;
+    /*border-radius: 12px;*/
+    background-color: white;
+    margin: 1rem auto;
+    color: black;
+}
+
+.monthlyTotal label
+{
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.monthlyTotal span {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.reportTableWrapper {
+    /*position:relative;*/
+}
+.reportTableScroll {
+    height:300px;
+    overflow:auto;
+    margin-top:20px;
+}
+
+.reportTableWrapper table {
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 10px;
+}
+.reportTableWrapper table * {
+    background:white;
+    color:black;
+}
+.reportTableWrapper table tbody {
+    text-align: center;
+}

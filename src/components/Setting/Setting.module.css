@@ -1,0 +1,90 @@
+.profile {
+    width: 90%;
+    max-width: 40rem;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: white;
+    margin: 3rem auto;
+}
+.profile h1{
+    text-align: center;
+}
+
+.loading {
+    text-align: center;
+    color: black;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.form-control input,
+.form-control label {
+    display: block;
+}
+
+
+.form-control label,
+.view label
+{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.view button {
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.view span {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.contact {
+    margin: 1rem;
+}
+
+.form-control input,
+.form-control select {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.form-control input:focus {
+    outline: none;
+    border-color: #240370;
+    background-color: #e0d4fd;
+}
+
+.form-actions {
+    text-align: left;
+}
+
+.btnSetting {
+    /*margin-left: 1rem;*/
+    font: inherit;
+    background-color: #240370;
+    color: white;
+    border: 1px solid #240370;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btnCancel {
+    margin-left: 0.7rem;
+}
+
+.toast-message {
+    background: darkblue;
+    color: #fff;
+    font-size: 20px;
+    width: 34vw;
+    padding: 30px 20px;
+}
